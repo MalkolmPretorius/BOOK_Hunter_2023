@@ -14,9 +14,7 @@
             <div class="p-4">
               <div class="pb-4">
                 
-                <?php   include_once '../app/models/tagsModel.php';
-                  $tags = App\Models\TagsModel\findAllByBookId($connexion, $book['id']);
-                   include '../app/views/tags/_index.php';?>
+                
 
               </div>
               <h3 class="text-xl font-bold"><?php echo $book['title'];?></h3>

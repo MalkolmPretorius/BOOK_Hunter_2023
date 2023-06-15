@@ -22,7 +22,7 @@
         <?php
         use App\Models\TagsModel;
             include_once '../app/models/tagsModel.php';
-            $tags = App\Models\TagsModel\findAll($connexion);
+            $tags = TagsModel\findAll($connexion);
             include '../app/views/tags/index.php';
           ?>
         
